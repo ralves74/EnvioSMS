@@ -37,7 +37,7 @@ namespace EnvioSMS
 
 
         void get_account_report()
-        {
+        { 
             IRestResponse<Account> relatorio_account = plivo_SMS.get_account();
         }
 
